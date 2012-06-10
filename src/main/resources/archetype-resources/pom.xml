@@ -3,7 +3,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>${artifactId}</artifactId>
 	<groupId>${groupId}</groupId>
-	<version>${version}</version>
 	<packaging>war</packaging>
 	<name>Entando Bundle: ${artifactId}</name>
 	<description>CHANGE ME! Write some quick and useful info.</description>
