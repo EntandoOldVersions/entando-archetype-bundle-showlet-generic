@@ -24,7 +24,7 @@
 		<connection>scm:git:git://github.com/entando/entando-archetype-bundle-showlet-generic.git</connection>
 		<developerConnection>scm:git:git@github.com:entando/entando-archetype-bundle-showlet-generic.git</developerConnection>
 		<url>https://github.com/entando/entando-archetype-bundle-showlet-generic</url>
-	</scm>	
+	</scm>
 	<developers>
 		<developer>
 			<id>w.ghelfi</id>
@@ -35,7 +35,7 @@
 	<organization>
 		<name>Tzente S.r.l.</name>
 		<url>http://www.tzente.com/</url>
-	</organization>	
+	</organization>
 	<build>
 		<extensions>
 			<extension>
@@ -77,7 +77,7 @@
 							</configuration>
 						</execution>
 					</executions>
-				</plugin>			
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
