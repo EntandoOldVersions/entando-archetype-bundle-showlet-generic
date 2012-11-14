@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>org.entando.entando</groupId>
 	<artifactId>entando-archetype-bundle-showlet-generic</artifactId>
-	<version>3.0.1-SNAPSHOT</version>
+	<version>experiment-bundles_with_bootstrap</version>
 	<packaging>maven-archetype</packaging>
 	<name>Entando: Archetype for Generic Showlet Bundle</name>
 	<description>Generic Showlet Bundle Archetype for Entando: an agile, modern and user-centric open source Portal platform.</description>
