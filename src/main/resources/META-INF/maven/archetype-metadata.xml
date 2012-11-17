@@ -6,7 +6,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<requiredProperties>
 		<requiredProperty key="showlet-human-readable-description" />
-	</requiredProperties>	
+	</requiredProperties>
 	<fileSets>
 		<fileSet encoding="UTF-8">
 			<directory>src/main/java</directory>
