@@ -12,13 +12,6 @@
 	<packaging>maven-archetype</packaging>
 	<name>Entando: Archetype for Generic Showlet Bundle</name>
 	<description>Generic Showlet Bundle Archetype for Entando.</description>
-	<developers>
-		<developer>
-			<id>w.ghelfi</id>
-			<name>William Ghelfi</name>
-			<email>w.ghelfi@entando.com</email>
-		</developer>
-	</developers>
 	<url>http://www.entando.com/</url>
 	<licenses>
 		<license>
