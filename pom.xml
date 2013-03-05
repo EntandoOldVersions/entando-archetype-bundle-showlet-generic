@@ -40,8 +40,8 @@
 		</developer>
 	</developers>
 	<organization>
-		<name>Tzente S.r.l.</name>
-		<url>http://www.tzente.com/</url>
+		<name>Entando S.r.l.</name>
+		<url>http://www.entando.com/</url>
 	</organization>
 	<build>
 		<extensions>
