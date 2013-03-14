@@ -8,10 +8,10 @@
 	</parent>
 	<groupId>org.entando.entando</groupId>
 	<artifactId>entando-archetype-bundle-showlet-generic</artifactId>
-	<version>3.0.1-SNAPSHOT</version>
+	<version>3.2.0</version>
 	<packaging>maven-archetype</packaging>
 	<name>Entando: Archetype for Generic Showlet Bundle</name>
-	<description>Generic Showlet Bundle Archetype for Entando: an agile, modern and user-centric open source Portal platform.</description>
+	<description>Generic Showlet Bundle Archetype for Entando.</description>
 	<url>http://www.entando.com/</url>
 	<licenses>
 		<license>
@@ -24,7 +24,8 @@
 		<connection>scm:git:git://github.com/entando/entando-archetype-bundle-showlet-generic.git</connection>
 		<developerConnection>scm:git:git@github.com:entando/entando-archetype-bundle-showlet-generic.git</developerConnection>
 		<url>https://github.com/entando/entando-archetype-bundle-showlet-generic</url>
-	</scm>	
+	  <tag>v3.2.0</tag>
+  </scm>
 	<developers>
 		<developer>
 			<id>w.ghelfi</id>
@@ -33,9 +34,9 @@
 		</developer>
 	</developers>
 	<organization>
-		<name>Tzente S.r.l.</name>
-		<url>http://www.tzente.com/</url>
-	</organization>	
+		<name>Entando S.r.l.</name>
+		<url>http://www.entando.com/</url>
+	</organization>
 	<build>
 		<extensions>
 			<extension>
@@ -51,6 +52,16 @@
 		</extensions>
 		<pluginManagement>
 			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.3.2</version>
+					<configuration>
+						<tagNameFormat>v@{project.version}</tagNameFormat>
+						<pushChanges>false</pushChanges>
+						<localCheckout>true</localCheckout>
+					</configuration>
+				</plugin>
 				<plugin>
 					<artifactId>maven-archetype-plugin</artifactId>
 					<version>2.0</version>
@@ -77,7 +88,7 @@
 							</configuration>
 						</execution>
 					</executions>
-				</plugin>			
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
