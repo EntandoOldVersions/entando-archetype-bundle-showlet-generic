@@ -2,10 +2,12 @@
 <component>
 	<code>${artifactId}</code>
 	<description>Showlet: ${showlet-human-readable-description}</description>
+	<!--
 	<dependencies>
 		<code>...</code>
 		<code>...</code>
 	</dependencies>
+	-->
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>
