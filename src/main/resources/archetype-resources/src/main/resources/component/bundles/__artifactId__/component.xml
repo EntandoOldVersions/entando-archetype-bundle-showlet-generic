@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
 	<code>${artifactId}</code>
-	<description>Widget: ${showlet-human-readable-description}</description>
+	<description>Widget: ${widget-human-readable-description}</description>
 	<!--
 	<dependencies>
 		<code>...</code>
