@@ -8,9 +8,9 @@
 	</parent>
 	<groupId>org.entando.entando</groupId>
 	<artifactId>entando-archetype-bundle-widget-generic</artifactId>
-	<version>3.3.1-EEE-SNAPSHOT</version>
+	<version>3.3.1-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
-	<name>Entando: Archetype for Generic Showlet Bundle</name>
+	<name>Entando: Archetype for Generic Widget Bundle</name>
 	<description>Generic Widget Bundle Archetype for Entando.</description>
 	<url>http://www.entando.com/</url>
 	<licenses>
